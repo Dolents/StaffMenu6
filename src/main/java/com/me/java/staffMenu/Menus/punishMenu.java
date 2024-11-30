@@ -47,12 +47,11 @@ public class punishMenu implements Listener {
 
             // Handle specific item clicks (custom actions)
             if (event.getSlot() == 21) { // Example: handle the first slot
-                player.openInventory(openGMGUI);
+                player.openInventory(gmMenuManager);
                 // You can add more actions here based on the item clicked
                 // e.g., open another menu, perform actions, etc.
             }
             if (event.getSlot() == 23) { // Example: handle the first slot
-                player.openInventory(ChatOffensesMenu);
                 // You can add more actions here based on the item clicked
                 // e.g., open another menu, perform actions, etc.
             }

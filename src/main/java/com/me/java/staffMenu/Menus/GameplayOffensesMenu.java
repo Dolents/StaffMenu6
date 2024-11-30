@@ -48,16 +48,15 @@ public class GameplayOffensesMenu implements Listener {
 
             // Handle specific item clicks (custom actions)
             if (event.getSlot() == 22) { // Example: handle the first slot
-                player.performCommand(command);
+                player.performCommand();
                 // You can add more actions here based on the item clicked
                 // e.g., open another menu, perform actions, etc.
             }
             if (event.getSlot() == 31) {
-                player.openInventory(command);
-                String targetPlayer =
+                player.performCommand();
             }
             if (event.getSlot() == 40) { // Example: handle the first slot
-                player.openInventory(command);
+                player.performCommand();
                 // You can add more actions here based on the item clicked
                 // e.g., open another menu, perform actions, etc.
             }
