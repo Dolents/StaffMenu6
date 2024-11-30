@@ -1,0 +1,12 @@
+name: StaffMenu
+main: com.me.java.staffMenu.Main
+version: 1.0
+api-version: 1.21
+commands:
+  punish:
+    description: Opens the punishment gui menu for staff members.
+    permission: staffmenu.punish
+permissions:
+  staffmenu.punish:
+    description: Allows staff members to open the punishment gui for corrective action.
+    default: true
